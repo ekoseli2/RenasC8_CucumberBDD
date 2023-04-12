@@ -23,3 +23,8 @@ Scenario: Verify that the User is able to use the search bar in Gmail
 
   # Search Google for 'Renastech' and click on the first related website
   # Perform the necessary successful (positive) verifications that it was opened
+Scenario: Search 'Renastech' in Google homepage "I'm feeling lucky"
+  Given the user wants to go to Google.com
+  When the user wants to search for 'Renastech'
+  And the User wants to click on "I'm feeling lucky" button
+  Then the User wants to verify that the brower is redirected to Renastech.com

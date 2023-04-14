@@ -7,9 +7,10 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="Break 1">
+    <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="Break 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/guru99Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/guru99Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/BrowserUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +160,7 @@
       <workItem from="1681248640740" duration="9029000" />
       <workItem from="1681307942433" duration="62000" />
       <workItem from="1681333715399" duration="973000" />
-      <workItem from="1681428542234" duration="5879000" />
+      <workItem from="1681428542234" duration="7800000" />
     </task>
     <task id="LOCAL-00001" summary="Prelecture 1">
       <created>1681247332483</created>
@@ -231,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681434151447</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Break 2">
+      <created>1681435173111</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681435173111</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +249,7 @@
     <MESSAGE value="Prelecture 1" />
     <MESSAGE value="Prelecture 2" />
     <MESSAGE value="Break 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Break 1" />
+    <MESSAGE value="Break 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Break 2" />
   </component>
 </project>

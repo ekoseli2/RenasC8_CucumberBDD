@@ -19,7 +19,7 @@ public class BrowserUtils {
 
     // Set an implicit wait "automatically"
     public static void setWaitTime() {
-        Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     // Utilities can make classes with a lot of boilerplate much easier:

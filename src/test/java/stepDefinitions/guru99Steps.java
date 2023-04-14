@@ -1,7 +1,9 @@
 package stepDefinitions;
 
 import Pages.guru99Home;
-import io.cucumber.java.en.*;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import utilities.BrowserUtils;
 import utilities.Driver;
 import utilities.PropertiesReader;
@@ -10,13 +12,13 @@ public class guru99Steps extends BrowserUtils {
     guru99Home homePage = new guru99Home();
     @Given("the User wants to go to the Payment Gateway website")
     public void the_user_wants_to_go_to_the_payment_gateway_website() {
-        Driver.getDriver().get(PropertiesReader.getProperties("demoguru99"));
-        setWaitTime();
+       Driver.getDriver().get(PropertiesReader.getProperties("demoguru99"));
+       setWaitTime();
     }
 
     @When("the User wants to buy an elephant toy")
     public void the_user_wants_to_buy_an_elephant_toy() {
-        homePage.selectQuantity("1");
+       homePage.selectQuantity("1");
         homePage.clickBuyNow();
     }
 

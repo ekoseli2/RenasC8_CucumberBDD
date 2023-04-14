@@ -7,10 +7,13 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="Break 2">
+    <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="Fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/guru99Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/guru99Home.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/guru99Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/guru99Steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,9 @@
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2OHxiItz5ej5NTuj2P2ULfrwFgE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -65,6 +71,26 @@
   }
 }]]></component>
   <component name="RunManager" selected="Cucumber Java.Scenario: Verify that the User can buy an Elephant toy">
+    <configuration name="Feature: Demo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/Demo.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="RenasC8_CucumberBDD" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: Demo" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: Gmail" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/Gmail.feature" />
@@ -127,6 +153,7 @@
       <module name="RenasC8_CucumberBDD" />
       <option name="NAME_FILTER" value="^Verify that the User can buy an Elephant toy$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that the User can buy an Elephant toy$&quot;" />
+      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Scenario: Verify that the User can buy an Elephant toy" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -137,11 +164,20 @@
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: Demo" />
+      <item itemvalue="Cucumber Java.Feature: Gmail" />
+      <item itemvalue="Cucumber Java.Feature: Test" />
+      <item itemvalue="Cucumber Java.Scenario: Log into Amazon with: Incorrect Username &amp; Correct Password" />
+      <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy an Elephant toy" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy an Elephant toy" />
+        <item itemvalue="Cucumber Java.Feature: Demo" />
         <item itemvalue="Cucumber Java.Feature: Test" />
         <item itemvalue="Cucumber Java.Feature: Gmail" />
         <item itemvalue="Cucumber Java.Scenario: Log into Amazon with: Incorrect Username &amp; Correct Password" />
@@ -160,7 +196,7 @@
       <workItem from="1681248640740" duration="9029000" />
       <workItem from="1681307942433" duration="62000" />
       <workItem from="1681333715399" duration="973000" />
-      <workItem from="1681428542234" duration="7800000" />
+      <workItem from="1681428542234" duration="13174000" />
     </task>
     <task id="LOCAL-00001" summary="Prelecture 1">
       <created>1681247332483</created>
@@ -239,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681435173111</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Test">
+      <created>1681437528948</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681437528948</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +293,8 @@
     <MESSAGE value="Prelecture 2" />
     <MESSAGE value="Break 1" />
     <MESSAGE value="Break 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Break 2" />
+    <MESSAGE value="Test" />
+    <MESSAGE value="Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
   </component>
 </project>

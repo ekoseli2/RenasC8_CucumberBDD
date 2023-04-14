@@ -13,7 +13,7 @@ public class Driver {
     a single webdriver (per thread). Remember Singleton approach from TestNG.
     Also, Cucumber will request more instances of the webdriver as needed by the step definitions.
     */
-    private static ThreadLocal<WebDriver> driverPool = new ThreadLocal<WebDriver>();
+    private static ThreadLocal<WebDriver> driverPool = new ThreadLocal<>();
     private Driver() {}
 
     public static WebDriver getDriver() {

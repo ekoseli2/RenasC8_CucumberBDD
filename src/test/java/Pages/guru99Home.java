@@ -16,7 +16,7 @@ public class guru99Home extends BrowserUtils {
     @FindBy(xpath = "//select[@name='quantity']")
     private WebElement quantityDropdown;
 
-    @FindBy(xpath = "//input[@class='button special']")
+    @FindBy(xpath = "//input[@type='submit']")
     private WebElement buyNowButton;
 
     // methods to perform relevant WebElement actions

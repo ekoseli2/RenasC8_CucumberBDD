@@ -19,7 +19,7 @@ public class BrowserUtils {
 
     // Set an implicit wait "automatically"
     public static void setWaitTime() {
-            Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
     // Utilities can make classes with a lot of boilerplate much easier:
@@ -37,7 +37,7 @@ public class BrowserUtils {
                 .pollingEvery(Duration.ofMillis(800)) // polling: check WebElement visibility every x amount of seconds
                 // which exceptions should be ignored by this wait while it is active:
                 .ignoring(NoSuchElementException.class)
-                // .ignoring(ElementNotVisibleException.class)
+                .ignoring(ElementNotVisibleException.class)
                 .ignoring(ElementClickInterceptedException.class)
                 .ignoring(StaleElementReferenceException.class)
                 .ignoring(WebDriverException.class);
@@ -55,7 +55,7 @@ public class BrowserUtils {
     public static void waitForPageToLoad(long timeOutSeconds) {
         ExpectedCondition<Boolean> expectation = driver -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete");
         try {
-            WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(timeOutSeconds));
+            WebDriverWait wait = new WebDriverWait(Driver.getDriver(), timeOutSeconds);
             wait.until(expectation);
         } catch (Throwable error) {
             error.printStackTrace();

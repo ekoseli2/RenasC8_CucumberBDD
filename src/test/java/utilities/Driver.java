@@ -20,7 +20,7 @@ public class Driver {
         if (driverPool.get() == null) {
             // this block will assign one driver to each test scenario in order to run them in parallel
             synchronized (Driver.class) {
-                switch (config_file_option_here) {
+                switch (PropertiesReader.getProperties("browser")) {
                     case "chrome":
                         WebDriverManager.chromedriver().setup();
                         driverPool.set(new ChromeDriver());

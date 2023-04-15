@@ -7,10 +7,8 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="Break 1 Lecture 3">
+    <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="Lecture 3 Break 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/Demo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Demo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/guru99Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/guru99Steps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +212,7 @@
       <workItem from="1681333715399" duration="973000" />
       <workItem from="1681428542234" duration="13295000" />
       <workItem from="1681501669953" duration="2915000" />
-      <workItem from="1681508837253" duration="7574000" />
+      <workItem from="1681508837253" duration="8617000" />
     </task>
     <task id="LOCAL-00001" summary="Prelecture 1">
       <created>1681247332483</created>
@@ -335,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681516808677</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Lecture 3 Break 2">
+      <created>1681520320465</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681520320465</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,6 +355,7 @@
     <MESSAGE value="Fix" />
     <MESSAGE value="Prelecture 3" />
     <MESSAGE value="Break 1 Lecture 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Break 1 Lecture 3" />
+    <MESSAGE value="Lecture 3 Break 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lecture 3 Break 2" />
   </component>
 </project>

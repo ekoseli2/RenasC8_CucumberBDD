@@ -1,5 +1,6 @@
 Feature: Payment Gateway functional test
 
+  @BuyingProduct_TC1 @Regression
   Scenario: Verify that the User can buy an Elephant toy
     Given the User wants to go to the Payment Gateway website
     When the User wants to buy an elephant toy
@@ -7,6 +8,7 @@ Feature: Payment Gateway functional test
     And the User wants to click on pay now
     Then the User wants to verify the order is successful
 
+  @BuyingProduct_TC2 @Regression @Smoke
   Scenario: Verify that the User can buy multiple products
     Given the User wants to go to the Payment Gateway website
     When the User wants to buy an elephant toy as "9"

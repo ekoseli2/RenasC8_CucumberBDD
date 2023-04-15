@@ -7,9 +7,9 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="Prelecture 3">
+    <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="Break 1 Lecture 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/guru99Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/guru99Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/guru99Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/guru99Payment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Demo">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verify that the User can buy an Elephant toy">
     <configuration name="Feature: Demo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/Demo.feature" />
@@ -186,9 +186,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy an Elephant toy" />
         <item itemvalue="Cucumber Java.Feature: Demo" />
         <item itemvalue="Cucumber Java.Scenario: Verify that user can buy multiple products" />
-        <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy an Elephant toy" />
         <item itemvalue="Cucumber Java.Feature: Test" />
         <item itemvalue="Cucumber Java.Feature: Gmail" />
       </list>
@@ -208,7 +208,7 @@
       <workItem from="1681333715399" duration="973000" />
       <workItem from="1681428542234" duration="13295000" />
       <workItem from="1681501669953" duration="2915000" />
-      <workItem from="1681508837253" duration="4406000" />
+      <workItem from="1681508837253" duration="4604000" />
     </task>
     <task id="LOCAL-00001" summary="Prelecture 1">
       <created>1681247332483</created>
@@ -308,7 +308,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681501991082</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Prelecture 3">
+      <created>1681516469808</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681516469808</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Break 1 Lecture 3">
+      <created>1681516508590</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681516508590</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +336,7 @@
     <MESSAGE value="Test" />
     <MESSAGE value="Fix" />
     <MESSAGE value="Prelecture 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prelecture 3" />
+    <MESSAGE value="Break 1 Lecture 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Break 1 Lecture 3" />
   </component>
 </project>

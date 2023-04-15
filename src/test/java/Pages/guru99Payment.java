@@ -40,7 +40,7 @@ public class guru99Payment extends BrowserUtils {
     }
 
     public void setCvvCodeInput(String cvvCode) {
-        cardNumberInput.sendKeys(cvvCode);
+        cvvCodeInput.sendKeys(cvvCode);
         staticWait(1);
     }
 

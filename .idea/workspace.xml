@@ -9,7 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="Break 1 Lecture 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/guru99Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/guru99Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/Demo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Demo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/guru99Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/guru99Steps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Verify that the User can buy an Elephant toy">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verify that the User can buy multiple products">
     <configuration name="Feature: Demo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/Demo.feature" />
@@ -98,24 +99,7 @@
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: Gmail" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/Gmail.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="RenasC8_CucumberBDD" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Gmail" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
     <configuration name="Feature: Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -157,6 +141,28 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Verify that the User can buy multiple products" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/Demo.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="RenasC8_CucumberBDD" />
+      <option name="NAME_FILTER" value="^Verify that the User can buy multiple products$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that the User can buy multiple products$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify that the User can buy multiple products" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Verify that user can buy multiple products" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/Demo.feature" />
@@ -178,19 +184,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy multiple products" />
       <item itemvalue="Cucumber Java.Scenario: Verify that user can buy multiple products" />
       <item itemvalue="Cucumber Java.Feature: Demo" />
-      <item itemvalue="Cucumber Java.Feature: Gmail" />
       <item itemvalue="Cucumber Java.Feature: Test" />
       <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy an Elephant toy" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy an Elephant toy" />
+        <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy multiple products" />
         <item itemvalue="Cucumber Java.Feature: Demo" />
+        <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy an Elephant toy" />
         <item itemvalue="Cucumber Java.Scenario: Verify that user can buy multiple products" />
         <item itemvalue="Cucumber Java.Feature: Test" />
-        <item itemvalue="Cucumber Java.Feature: Gmail" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +214,7 @@
       <workItem from="1681333715399" duration="973000" />
       <workItem from="1681428542234" duration="13295000" />
       <workItem from="1681501669953" duration="2915000" />
-      <workItem from="1681508837253" duration="4604000" />
+      <workItem from="1681508837253" duration="7574000" />
     </task>
     <task id="LOCAL-00001" summary="Prelecture 1">
       <created>1681247332483</created>
@@ -322,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681516508590</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Break 1 Lecture 3">
+      <created>1681516808677</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681516808677</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

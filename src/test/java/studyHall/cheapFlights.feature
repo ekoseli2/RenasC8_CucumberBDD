@@ -6,8 +6,8 @@
       Given The user wants to go to cheapflights.ca
       When The user wants to provide origin as LAS
       Then The user wants to provide destionation as LAX
-      And The user wants to provide departure date as July 18, 2023
-      And The user wants to provide return date as July 25, 2023
+      And The user wants to provide departure date July Eighteen 2023
+      And The user wants to provide return date as July Twenty-Five 2023
       Then The user wants to click on search button
 
    #Negative Scenario 1

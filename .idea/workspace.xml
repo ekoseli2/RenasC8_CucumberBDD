@@ -3,371 +3,38 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="BookmarksViewState">
-    <option name="rewriteBookmarkType" value="true" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="Prelecture 1">
+    <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Labs/Lab04.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lecture Notes/Apache_POI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lecture Notes/Background_Parameters.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lecture Notes/Cucumber_IntelliJ.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lecture Notes/Data_Tables.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lecture Notes/HTML_report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lecture Notes/LOG4J_framerwork.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lecture Notes/List.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lecture Notes/Maps.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lecture Notes/Maven.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lecture Notes/Parameters.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lecture Notes/Regression_Testing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lecture Notes/Scenario_Outline.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lecture Notes/Screenshot_Embedding.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lecture Notes/Smoke_Testing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lecture Notes/hooks.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/studyHall/cheapFlights.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/studyHall/cheapFlights.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="3d0d07c5-cd02-4d26-b17a-d89a63f7b4a9" />
-        <option name="url" value="https://github.com/ekoseli2/RenasC8_CucumberBDD.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2OHxiItz5ej5NTuj2P2ULfrwFgE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/HP/IdeaProjects/RenastechTulip",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Flight search From LAS to LAX">
-    <configuration name="Feature: Demo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/Demo.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="RenasC8_CucumberBDD" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: Demo" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Flight search From LAS to LAX" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/studyHall/cheapFlights.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="RenasC8_CucumberBDD" />
-      <option name="NAME_FILTER" value="^Flight search From LAS to LAX$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Flight search From LAS to LAX$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Flight search From LAS to LAX" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Verify that the User can buy an Elephant toy" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/Demo.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="RenasC8_CucumberBDD" />
-      <option name="NAME_FILTER" value="^Verify that the User can buy an Elephant toy$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that the User can buy an Elephant toy$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify that the User can buy an Elephant toy" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Verify that the User can buy multiple products" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/Demo.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="RenasC8_CucumberBDD" />
-      <option name="NAME_FILTER" value="^Verify that the User can buy multiple products$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that the User can buy multiple products$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify that the User can buy multiple products" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RenasC8_CucumberBDD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runner" />
-      <option name="MAIN_CLASS_NAME" value="runner.TestRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Cucumber Java.Scenario: Flight search From LAS to LAX" />
-      <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy multiple products" />
-      <item itemvalue="Cucumber Java.Feature: Demo" />
-      <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy an Elephant toy" />
-      <item itemvalue="JUnit.TestRunner" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Cucumber Java.Scenario: Flight search From LAS to LAX" />
-        <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy an Elephant toy" />
-        <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy multiple products" />
-        <item itemvalue="Cucumber Java.Feature: Demo" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="" />
-      <created>1681231440921</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1681231440921</updated>
-      <workItem from="1681231442315" duration="7749000" />
-      <workItem from="1681248640740" duration="9029000" />
-      <workItem from="1681307942433" duration="62000" />
-      <workItem from="1681333715399" duration="973000" />
-      <workItem from="1681428542234" duration="13295000" />
-      <workItem from="1681501669953" duration="2915000" />
-      <workItem from="1681508837253" duration="10087000" />
-    </task>
-    <task id="LOCAL-00001" summary="Prelecture 1">
-      <created>1681247332483</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1681247332483</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Prelecture 1">
-      <created>1681248799296</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1681248799296</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Prelecture 1">
-      <created>1681257079975</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1681257079975</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Prelecture 1">
-      <created>1681260195591</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1681260195591</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Prelecture 1">
-      <created>1681262471966</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1681262471966</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Prelecture 1">
-      <created>1681263293379</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1681263293379</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Prelecture 1">
-      <created>1681264187376</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1681264187376</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Prelecture 2">
-      <created>1681342097683</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1681342097683</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Break 1">
-      <created>1681431070717</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1681431070717</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Break 1">
-      <created>1681434151447</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1681434151447</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Break 2">
-      <created>1681435173111</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1681435173111</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Test">
-      <created>1681437528948</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1681437528948</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Fix">
-      <created>1681442837391</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1681442837391</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Prelecture 3">
-      <created>1681501991082</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1681501991082</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Prelecture 3">
-      <created>1681516469808</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1681516469808</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Break 1 Lecture 3">
-      <created>1681516508590</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1681516508590</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Break 1 Lecture 3">
-      <created>1681516808677</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1681516808677</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Lecture 3 Break 2">
-      <created>1681520320465</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1681520320465</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Lecture 3 Break 2">
-      <created>1681521255243</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1681521255243</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Prelecture 1" />
-    <MESSAGE value="Prelecture 2" />
-    <MESSAGE value="Break 1" />
-    <MESSAGE value="Break 2" />
-    <MESSAGE value="Test" />
-    <MESSAGE value="Fix" />
-    <MESSAGE value="Prelecture 3" />
-    <MESSAGE value="Break 1 Lecture 3" />
-    <MESSAGE value="Lecture 3 Break 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lecture 3 Break 2" />
   </component>
 </project>

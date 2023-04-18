@@ -39,6 +39,10 @@ public class OrangeHRMSteps extends BrowserUtils {
     @Then("the User wants to click on PIM Module")
     public void the_user_wants_to_click_on_pim_module() {
         homePage.clickPIM();
+    }
+
+    @Then("the User wants to go to Add Employee Page")
+    public void the_user_wants_to_go_to_add_employee_page() {
         homePage.clickAddEmployee();
     }
 
@@ -46,14 +50,17 @@ public class OrangeHRMSteps extends BrowserUtils {
     public void the_user_wants_to_add_first_name_as(String string) {
         homePage.setFirstName("George");
     }
+
     @Then("the User wants to add last name as {string}")
     public void the_user_wants_to_add_last_name_as(String string) {
         homePage.setLastName("Washington");
     }
+
     @Then("the User wants to save personal information")
     public void the_user_wants_to_save_personal_information() {
         homePage.clickSaveButton();
     }
+
     @Then("the User should be able to see {string} Header")
     public void the_user_should_be_able_to_see_header(String string) {
         homePage.verifyPersonalDetailsHeader(string);

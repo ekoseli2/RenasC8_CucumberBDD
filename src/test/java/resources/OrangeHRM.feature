@@ -23,6 +23,7 @@ Feature: Functional Testing on OrangeHRM
       Then the User wants to click on the Login Button
       And the User wants to verify that the browser landed on "Dashboard"
       Then the User wants to click on PIM Module
+      And the User wants to go to Add Employee Page
       And the User wants to add first name as "George"
       Then the User wants to add last name as "Washington"
       Then the User wants to save personal information

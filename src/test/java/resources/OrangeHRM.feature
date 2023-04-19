@@ -29,7 +29,7 @@ Feature: Functional Testing on OrangeHRM
       Then the User wants to save personal information
       Then the User should be able to see "Personal Details" Header
 
-  @TC300
+  @TC300 @Regression
     # This scenario will implement a Map data type to make various inputs for tests
 Scenario: Adding a new Employee - Using Map
   Given the User wants to go to OrangeHRM Website
@@ -50,7 +50,7 @@ Scenario: Adding a new Employee - Using Map
   Then the User should be able to see "Personal Details" Header
 
 
-    @TC400
+    @TC400 @Regression
     Scenario: Adding a new Employee - Using List
       Given the User wants to go to OrangeHRM Website
       When the User wants to enter username and password

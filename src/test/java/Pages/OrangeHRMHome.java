@@ -61,4 +61,37 @@ public class OrangeHRMHome extends BrowserUtils {
         Assert.assertEquals(expectedMessage, dashboardHeader.getText());
     }
 
+    public void setAddLoginDetails() {
+        clickWithWait(addLoginDetails);
+    }
+
+    public void setUserName(String _username) {
+        userName.sendKeys(_username);
+    }
+
+    public void setPassword(String _password) {
+        password.sendKeys(_password);
+    }
+
+    public void setConfirmPassword(String _confirmPassword) {
+        confirmPassword.sendKeys(_confirmPassword);
+    }
+
+    public void setStatusDropdown(String _statusDropdown) {
+        selectFromDropdown(statusDropdown, _statusDropdown);
+    }
+
+    @FindBy(id = "chkLogin")
+    private WebElement addLoginDetails;
+    @FindBy(id = "user_name")
+    private WebElement userName;
+    @FindBy(id = "user_password")
+    private WebElement password;
+    @FindBy(id = "re_password")
+    private WebElement confirmPassword;
+    @FindBy(id = "status")
+    private WebElement statusDropdown;
+
+
+
 }

@@ -11,7 +11,7 @@ This will act as a mock interview and test your ability to communicate about Sel
 4) cover the usage of your tag name groupings for the TestRunner
 
 Finally, understand that your target audience (Technical recruiter or HR managers) will have a very basic understanding of this
-technology, but will still have some understanding. Ceratain OOP buzzwords (like encapsulation or continuous integration) will 
+technology, but will still have some understanding. Certain OOP buzzwords (like encapsulation or continuous integration) will 
 definitely tick boxes on their interview sheet.
 
 You are free to send your video to course staff for evaluation if completed on time.

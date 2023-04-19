@@ -7,6 +7,8 @@ import utilities.BrowserUtils;
 import utilities.Driver;
 import utilities.PropertiesReader;
 
+import java.util.Map;
+
 public class OrangeHRMSteps extends BrowserUtils {
 
     OrangeHRMLogin loginPage = new OrangeHRMLogin();
@@ -64,6 +66,20 @@ public class OrangeHRMSteps extends BrowserUtils {
     @Then("the User should be able to see {string} Header")
     public void the_user_should_be_able_to_see_header(String string) {
         homePage.verifyPersonalDetailsHeader(string);
+    }
+
+    @Then("the User wants to add employee's first name and last name")
+    public void the_user_wants_to_add_employee_s_first_name_and_last_name(Map<String, String> dataTable) {
+        homePage.setFirstName(dataTable.get("FirstName"));
+        homePage.setLastName(dataTable.get("LastName"));
+    }
+    @Then("the User wants to add login details as follows")
+    public void the_user_wants_to_add_login_details_as_follows(Map<String, String> dataTable) {
+        homePage.setAddLoginDetails();
+        homePage.setUserName(dataTable.get("UserName"));
+        homePage.setPassword(dataTable.get("Password"));
+        homePage.setConfirmPassword(dataTable.get("Password"));
+        homePage.setStatusDropdown(dataTable.get("Status"));
     }
 
 }

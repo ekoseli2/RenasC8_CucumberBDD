@@ -7,6 +7,7 @@ import utilities.BrowserUtils;
 import utilities.Driver;
 import utilities.PropertiesReader;
 
+import java.util.List;
 import java.util.Map;
 
 public class OrangeHRMSteps extends BrowserUtils {
@@ -80,6 +81,21 @@ public class OrangeHRMSteps extends BrowserUtils {
         homePage.setPassword(dataTable.get("Password"));
         homePage.setConfirmPassword(dataTable.get("Password"));
         homePage.setStatusDropdown(dataTable.get("Status"));
+    }
+
+    @Then("the User wants to add employees' first name and last name using a List")
+    public void the_user_wants_to_add_employees_first_name_and_last_name_using_a_list(List<List<String>> dataTable) {
+        homePage.setAddLoginDetails();
+                                                              // row       // column
+        homePage.setFirstName(dataTable.get(2).get(0));
+        homePage.setLastName(dataTable.get(2).get(1));
+    }
+    @Then("the User wants to add Login details using a List")
+    public void the_user_wants_to_add_login_details_using_a_list(List<List<String>> dataTable) {
+       homePage.setUserName(dataTable.get(1).get(0));
+       homePage.setPassword(dataTable.get(1).get(1));
+       homePage.setConfirmPassword(dataTable.get(1).get(1));
+       homePage.setStatusDropdown(dataTable.get(1).get(2));
     }
 
 }

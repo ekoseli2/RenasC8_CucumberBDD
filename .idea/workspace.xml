@@ -7,13 +7,13 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="Prelecture 5">
+    <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="Break 1 Lecture 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Labs/Lab05.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Labs/Lab05.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/OrangeHRMHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/OrangeHRMHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/Demo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Demo.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/resources/OrangeHRM.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/OrangeHRM.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/OrangeHRMSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/OrangeHRMSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/guru99Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/guru99Steps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +227,7 @@
       <workItem from="1681508837253" duration="10923000" />
       <workItem from="1681763433601" duration="13528000" />
       <workItem from="1681830119326" duration="1155000" />
-      <workItem from="1681859289854" duration="3563000" />
+      <workItem from="1681859289854" duration="7407000" />
     </task>
     <task id="LOCAL-00001" summary="Prelecture 1">
       <created>1681247332483</created>
@@ -404,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681831267683</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Break 1 Lecture 5">
+      <created>1681863061355</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1681863061355</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,6 +443,7 @@
     <MESSAGE value="Break 1 | Lecture 4" />
     <MESSAGE value="Break 2 | Lecture 4" />
     <MESSAGE value="Prelecture 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prelecture 5" />
+    <MESSAGE value="Break 1 Lecture 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Break 1 Lecture 5" />
   </component>
 </project>

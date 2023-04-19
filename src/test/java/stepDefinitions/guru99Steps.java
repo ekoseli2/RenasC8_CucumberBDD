@@ -8,6 +8,8 @@ import utilities.BrowserUtils;
 import utilities.Driver;
 import utilities.PropertiesReader;
 
+import java.util.Map;
+
 public class guru99Steps extends BrowserUtils {
     guru99Home homePage = new guru99Home();
     guru99Payment paymentPage = new guru99Payment();
@@ -73,6 +75,14 @@ public class guru99Steps extends BrowserUtils {
     @Then("the User wants to verify a message as {string}")
     public void the_user_wants_to_verify_a_message_as(String string) {
         successPage.verifyText(string);
+    }
+
+    @Then("the User wants to provide requested payment information as follows")
+    public void the_user_wants_to_provide_requested_payment_information_as_follows(Map<String, String> dataTable) {
+        paymentPage.setCardNumberInput(dataTable.get("CNumber"));
+        paymentPage.setMonthDropdown(dataTable.get("EMonth"));
+        paymentPage.setYearDropdown(dataTable.get("EYear"));
+        paymentPage.setCvvCodeInput(dataTable.get("CvvCode"));
     }
 
 }

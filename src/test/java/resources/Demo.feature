@@ -18,3 +18,16 @@ Feature: Payment Gateway functional test
     And the User wants to provide their CVV Code as "787"
     And the User wants to click on pay now
     Then the User wants to verify a message as "Payment successfull!"
+
+    @BuyingProduct_TC3
+  Scenario: Verify that the User can buy multiple products - Using Map
+    Given the User wants to go to the Payment Gateway website
+    When the User wants to buy an elephant toy as "9"
+    Then the User wants to provide requested payment information as follows
+      # | Key | Value |
+      | CNumber | 5454545454545454 |
+      | EMonth  | 11               |
+      | EYear   | 2026             |
+      | CvvCode | 189 |
+      And the User wants to click on pay now
+      Then the User wants to verify a message as "Payment successfull!"

@@ -9,9 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="Break 2 Lecture 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/Demo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Demo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/OrangeHRM.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/OrangeHRM.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +40,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -91,7 +81,7 @@
       <recent name="C:\Users\HP\IdeaProjects\RenasC8_CucumberBDD\src\test\java\Lecture Notes" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FailedRunner">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verify dashboard on header using List Format">
     <configuration name="Feature: Demo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/Demo.feature" />
@@ -113,15 +103,15 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify that the User can buy an Elephant toy" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify dashboard on header using List Format" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/Demo.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/studyHall/dataTableExample.feature" />
+      <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="RenasC8_CucumberBDD" />
-      <option name="NAME_FILTER" value="^Verify that the User can buy an Elephant toy$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that the User can buy an Elephant toy$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify that the User can buy an Elephant toy" />
+      <option name="NAME_FILTER" value="^Verify dashboard on header using List Format$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify dashboard on header using List Format$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify dashboard on header using List Format" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -131,7 +121,6 @@
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
     <configuration name="Scenario: Verify that the User can buy multiple products" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -187,19 +176,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Scenario: Verify dashboard on header using List Format" />
       <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy multiple products" />
       <item itemvalue="Cucumber Java.Feature: Demo" />
-      <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy an Elephant toy" />
       <item itemvalue="JUnit.FailedRunner" />
       <item itemvalue="JUnit.TestRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Verify dashboard on header using List Format" />
         <item itemvalue="JUnit.FailedRunner" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy multiple products" />
         <item itemvalue="Cucumber Java.Feature: Demo" />
-        <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy an Elephant toy" />
       </list>
     </recent_temporary>
   </component>

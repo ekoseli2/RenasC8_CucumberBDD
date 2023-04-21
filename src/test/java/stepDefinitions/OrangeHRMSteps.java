@@ -3,6 +3,7 @@ package stepDefinitions;
 import Pages.OrangeHRMHome;
 import Pages.OrangeHRMLogin;
 import io.cucumber.java.en.*;
+import org.apache.log4j.Logger;
 import utilities.BrowserUtils;
 import utilities.Driver;
 import utilities.PropertiesReader;
@@ -15,6 +16,8 @@ public class OrangeHRMSteps extends BrowserUtils {
     OrangeHRMLogin loginPage = new OrangeHRMLogin();
     OrangeHRMHome homePage = new OrangeHRMHome();
 
+    private static final Logger logger = Logger.getLogger(OrangeHRMSteps.class);
+
     @Given("the User wants to go to OrangeHRM Website")
     public void the_user_wants_to_go_to_orange_hrm_website() {
         Driver.getDriver().get(PropertiesReader.getProperties("OrangeHRMTestURL"));
@@ -24,6 +27,7 @@ public class OrangeHRMSteps extends BrowserUtils {
     public void the_user_wants_to_enter_username_and_password() {
         loginPage.setUsernameInput(PropertiesReader.getProperties("username"));
         loginPage.setPasswordInput(PropertiesReader.getProperties("password"));
+        logger.info("Username and password provided succesfully");
     }
     @Then("the User wants to click on the Login Button")
     public void the_user_wants_to_click_on_the_login_button() {
@@ -81,21 +85,24 @@ public class OrangeHRMSteps extends BrowserUtils {
         homePage.setPassword(dataTable.get("Password"));
         homePage.setConfirmPassword(dataTable.get("Password"));
         homePage.setStatusDropdown(dataTable.get("Status"));
+        logger.info("All necessary information to Login details are provided");
     }
 
     @Then("the User wants to add employees' first name and last name using a List")
     public void the_user_wants_to_add_employees_first_name_and_last_name_using_a_list(List<List<String>> dataTable) {
-        homePage.setAddLoginDetails();
                                                               // row       // column
         homePage.setFirstName(dataTable.get(2).get(0));
         homePage.setLastName(dataTable.get(2).get(1));
     }
     @Then("the User wants to add Login details using a List")
     public void the_user_wants_to_add_login_details_using_a_list(List<List<String>> dataTable) {
+        homePage.setAddLoginDetails();
+        logger.info("Add login details button is clicked successfully");
        homePage.setUserName(dataTable.get(1).get(0));
        homePage.setPassword(dataTable.get(1).get(1));
        homePage.setConfirmPassword(dataTable.get(1).get(1));
        homePage.setStatusDropdown(dataTable.get(1).get(2));
+       logger.info("Status was successfully provided");
     }
 
 }

@@ -1,5 +1,6 @@
 package Pages;
 
+import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,6 +12,8 @@ public class OrangeHRMHome extends BrowserUtils {
     public OrangeHRMHome() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
+
+    private static final Logger logger = Logger.getLogger(OrangeHRMHome.class);
 
     @FindBy(xpath = "//h1[.='Dashboard']")
     private WebElement dashboardHeader;
@@ -28,9 +31,11 @@ public class OrangeHRMHome extends BrowserUtils {
 
     @FindBy(id = "firstName")
     private WebElement firstName;
+
     public void setFirstName(String first) {
         staticWait(1);
         firstName.sendKeys(first);
+        logger.info(first + " is successfully entered");
     }
 
     @FindBy(id = "lastName")
@@ -38,12 +43,14 @@ public class OrangeHRMHome extends BrowserUtils {
     public void setLastName(String last) {
         staticWait(1);
         lastName.sendKeys(last);
+        logger.info(last + " is successfully entered");
     }
 
     @FindBy(id = "btnSave")
     private WebElement saveButton;
     public void clickSaveButton() {
         clickWithWait(saveButton);
+        logger.info("Save button was successfully clicked");
     }
 
     @FindBy(xpath = "//h1[.='Personal Details']")
@@ -51,6 +58,7 @@ public class OrangeHRMHome extends BrowserUtils {
     public void verifyPersonalDetailsHeader(String expectedHeader) {
         staticWait(1);
         Assert.assertEquals(expectedHeader, personalDetailsHeader.getText());
+        logger.info(expectedHeader + " is expected header and successfully provided");
     }
 
     public void verifyDashboard() {
@@ -63,6 +71,7 @@ public class OrangeHRMHome extends BrowserUtils {
 
     public void setAddLoginDetails() {
         clickWithWait(addLoginDetails);
+        logger.info("Add login details button was successfully clicked");
     }
 
     public void setUserName(String _username) {

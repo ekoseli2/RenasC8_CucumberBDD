@@ -91,8 +91,30 @@ Scenario: Adding a new Employee - Using Map
         Then the User should be able to see "Personal Details" Header
 
         Examples:
-          | username              | password                      | status   |
-          | renastech23454564654! | Renastech!@@@2123123123       | Disabled |
-          | abcRenastechh45645!   | RenasRenas!@!123123123123123  | Enabled  |
-          | abc123Renas54454!     | Renastech123@!123123123123123 | Enabled  |
-          | Sand123               | RenaseTes123.@                | Disabled |
+          | username                    | password                      | status   |
+          | renastech54545423454564654! | Renastech!@@@2123123123       | Disabled |
+          | abcRenastech44545h45645!    | RenasRenas!@!123123123123123  | Enabled  |
+          | abc123Renas5445454544!      | Renastech123@!123123123123123 | Enabled  |
+          | Sand14545423                | RenaseTes123.@                | Disabled |
+
+
+
+  @Scenario_Outline_TC2
+  Scenario Outline: Adding a new Employee - Using a Scenario Outline with one data table
+    Given the User wants to go to OrangeHRM Website
+    When the User wants to enter username and password
+    Then the User wants to click on the Login Button
+    And the User wants to verify that the browser landed on "Dashboard"
+    Then the User wants to click on PIM Module
+    And the User wants to go to Add Employee Page
+    Then the User wants to add employee first name as "<firstname>" and the last name as "<lastname>"
+    Then the User wants to add login information "<username>" "<password>" "<status>"
+    Then the User wants to save personal information
+    Then the User should be able to see "Personal Details" Header
+
+    Examples:
+      | firstname | lastname    | username                    | password                      | status   |
+      | Benjamin  | Renastech23 | renastech54545423454564654! | Renastech!@@@2123123123       | Disabled |
+      | Abdul     | Renastech23 | abcRenastech44545h45645!    | RenasRenas!@!123123123123123  | Enabled  |
+      | MIchael   | Jordan      | abc123Renas5445454544!      | Renastech123@!123123123123123 | Enabled  |
+      | Sandy     | Mandy       | Sand14545423                |	RenaseTes123.@ | Disabled                      |

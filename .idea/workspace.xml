@@ -7,11 +7,11 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="Break 2 Lecture 5">
+    <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="Lecture 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/OrangeHRM.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/OrangeHRM.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/OrangeHRMSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/OrangeHRMSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/OrangeHRMSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/OrangeHRM.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/OrangeHRM.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -433,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682124536711</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Lecture 6">
+      <created>1682127696557</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1682127696557</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,6 +474,7 @@
     <MESSAGE value="Prelecture 5" />
     <MESSAGE value="Break 1 Lecture 5" />
     <MESSAGE value="Break 2 Lecture 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Break 2 Lecture 5" />
+    <MESSAGE value="Lecture 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lecture 6" />
   </component>
 </project>

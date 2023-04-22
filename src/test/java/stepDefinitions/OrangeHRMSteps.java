@@ -123,4 +123,12 @@ public class OrangeHRMSteps extends BrowserUtils {
         logger.info(status + " is provided as the status");
     }
 
+    @Then("the User wants to add employee first name as {string} and the last name as {string}")
+    public void the_user_wants_to_add_employee_first_name_as_and_the_last_name_as(String firstname, String lastname) {
+         homePage.setFirstName(firstname);
+         homePage.setLastName(lastname);
+         logger.info(firstname+" is provided as firstname and "+lastname+" is provided as lastname");
+    }
+
+
 }

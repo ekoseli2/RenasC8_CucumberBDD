@@ -113,8 +113,8 @@ Scenario: Adding a new Employee - Using Map
     Then the User should be able to see "Personal Details" Header
 
     Examples:
-      | firstname | lastname    | username                    | password                      | status   |
-      | Benjamin  | Renastech23 | renastech54545423454564654! | Renastech!@@@2123123123       | Disabled |
-      | Abdul     | Renastech23 | abcRenastech44545h45645!    | RenasRenas!@!123123123123123  | Enabled  |
-      | MIchael   | Jordan      | abc123Renas5445454544!      | Renastech123@!123123123123123 | Enabled  |
-      | Sandy     | Mandy       | Sand14545423                |	RenaseTes123.@ | Disabled                      |
+      | firstname | lastname    | username                           | password                      | status   |
+      | Benjamin  | Renastech23 | renasteasdfasdch54545423454564654! | Renastech!@@@2123123123       | Disabled |
+      | Abdul     | Renastech23 | abcRenasdfasfstech44545h45645!     | RenasRenas!@!123123123123123  | Enabled  |
+      | MIchael   | Jordan      | abc123Renas5445454544!             | Renastech123@!123123123123123 | Enabled  |
+      | Sandy     | Mandy       | Sand1asdfas4545423                      | RenaseTes123.@                | Disabled |

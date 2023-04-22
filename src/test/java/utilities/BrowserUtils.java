@@ -10,11 +10,13 @@ import java.util.function.Function;
 public class BrowserUtils {
 
     public static void staticWait(int seconds) {
-        try {
+      /*
+      try {
             Thread.sleep(1000 * seconds);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+       */
     }
 
     // Set an implicit wait "automatically"

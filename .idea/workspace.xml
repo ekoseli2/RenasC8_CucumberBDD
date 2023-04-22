@@ -9,8 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="Break 2 Lecture 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/Demo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Demo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/OrangeHRM.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/OrangeHRM.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +91,7 @@
       <recent name="C:\Users\HP\IdeaProjects\RenasC8_CucumberBDD\src\test\java\Lecture Notes" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FailedRunner">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Feature: Demo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/Demo.feature" />
@@ -195,8 +195,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FailedRunner" />
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="JUnit.FailedRunner" />
         <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy multiple products" />
         <item itemvalue="Cucumber Java.Feature: Demo" />
         <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy an Elephant toy" />

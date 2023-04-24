@@ -10,8 +10,8 @@
     <list default="true" id="5d744199-fde7-41b1-88b0-eb4bc9754757" name="Changes" comment="Lecture 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/OrangeHRMSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/OrangeHRMSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/OrangeHRM.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/OrangeHRM.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/studyHall/dataTableExample.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/studyHall/dataTableExample.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/studyHall/stepsDefinitions/ebaySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/studyHall/stepsDefinitions/ebaySteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +49,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -139,16 +132,15 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify that the User can buy multiple products" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify dashboard on header using List Format" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/Demo.feature" />
-      <option name="GLUE" value="stepDefinitions" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/studyHall/dataTableExample.feature" />
+      <option name="GLUE" value="stepDefinitions studyHall.stepsDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="RenasC8_CucumberBDD" />
-      <option name="NAME_FILTER" value="^Verify that the User can buy multiple products$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that the User can buy multiple products$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify that the User can buy multiple products" />
+      <option name="NAME_FILTER" value="^Verify dashboard on header using List Format$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify dashboard on header using List Format$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify dashboard on header using List Format" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -158,7 +150,6 @@
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
     <configuration name="FailedRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -192,19 +183,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Scenario: Verify dashboard on header using List Format" />
       <item itemvalue="Cucumber Java.Scenario: Adding a new Employee - Using Map" />
       <item itemvalue="Cucumber Java.Scenario: Adding a new Employee - Using a Scenario Outline" />
-      <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy multiple products" />
       <item itemvalue="JUnit.FailedRunner" />
       <item itemvalue="JUnit.TestRunner" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Verify dashboard on header using List Format" />
         <item itemvalue="Cucumber Java.Scenario: Adding a new Employee - Using a Scenario Outline" />
         <item itemvalue="Cucumber Java.Scenario: Adding a new Employee - Using Map" />
         <item itemvalue="JUnit.FailedRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Verify that the User can buy multiple products" />
       </list>
     </recent_temporary>
   </component>

@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources",               // location of your .feature files (copy content root)
         glue = "stepDefinitions",                                  // location of your step definitions (copy source root)
-        tags = "@Scenario_Outline_TC2",                         // Which tags will this file run?
+        tags = "@background",                         // Which tags will this file run?
         dryRun = false,                                                 // we will not run undefined steps
         plugin = {
                 "pretty",                                                               // This will help us to have a more understandable console output

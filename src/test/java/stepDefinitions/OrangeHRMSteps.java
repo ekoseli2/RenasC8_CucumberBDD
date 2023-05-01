@@ -4,10 +4,15 @@ import Pages.OrangeHRMHome;
 import Pages.OrangeHRMLogin;
 import io.cucumber.java.en.*;
 import org.apache.log4j.Logger;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import utilities.BrowserUtils;
 import utilities.Driver;
 import utilities.PropertiesReader;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
@@ -128,6 +133,48 @@ public class OrangeHRMSteps extends BrowserUtils {
          homePage.setFirstName(firstname);
          homePage.setLastName(lastname);
          logger.info(firstname+" is provided as firstname and "+lastname+" is provided as lastname");
+    }
+
+
+
+    @Given("The user wants to login to OrangeHRM using Excel File")
+    public void the_user_wants_to_login_to_orange_hrm_using_excel_file() throws IOException {
+        Driver.getDriver().get(PropertiesReader.getProperties("OrangeHRMTestURL"));
+
+        //Give the path of external file
+        //File path is absolute path
+        String filePath= "C:\\Users\\oralr\\IdeaProjects\\RenasC8_CucumberBDD\\src\\test\\resources\\externalFileC8.xlsx";
+        //We are loading the file
+        FileInputStream fileInputStream= new FileInputStream(filePath);
+        //Lets open the excel file
+        XSSFWorkbook workbook=new XSSFWorkbook(fileInputStream);
+        //Lets open the Sheet1
+        XSSFSheet sheet= workbook.getSheet("Sheet1");
+
+
+        System.out.println(sheet.getRow(0).getCell(0).toString());
+        System.out.println(sheet.getRow(0).getCell(1).toString());
+        System.out.println(sheet.getRow(1).getCell(0).toString());
+        System.out.println(sheet.getRow(1).getCell(1).toString());
+
+        int rows= sheet.getLastRowNum();
+        int columns=sheet.getRow(0).getLastCellNum();
+
+        System.out.println(rows);
+        System.out.println(columns);
+
+        String username= sheet.getRow(1).getCell(0).toString();
+        String password= sheet.getRow(1).getCell(1).toString();
+
+        loginPage.setDataFromExcel(username,password);
+
+        for (int i=0; i<rows+1; i++){
+            for(int j=0; j<columns; j++){
+                System.out.println(sheet.getRow(i).getCell(j).toString());
+            }
+        }
+
+
     }
 
 
